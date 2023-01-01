@@ -1,0 +1,25 @@
+{
+  "name": "tic-tac-toe-with-server",
+  "version": "1.0.0",
+  "description": "A game of Tic Tac Toe using JS, and run using Node.JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DecodeWebWithRohan/tic-tac-toe-with-server.git"
+  },
+  "keywords": [
+    "JS",
+    "Node.JS",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Rohan Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DecodeWebWithRohan/tic-tac-toe-with-server/issues"
+  },
+  "homepage": "https://github.com/DecodeWebWithRohan/tic-tac-toe-with-server#readme"
+}
