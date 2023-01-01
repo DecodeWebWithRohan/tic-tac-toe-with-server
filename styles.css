@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    margin: 1rem auto;
+}
+
+.game-container h1 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+}
+
+.game-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.game-actions select, .game-actions button {
+    padding: 1rem;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(3, 8rem);
+    gap: 2px;
+    position: relative;
+}
+
+.game-grid button {
+    font-size: 5rem;
+}
+
+.game-message {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
